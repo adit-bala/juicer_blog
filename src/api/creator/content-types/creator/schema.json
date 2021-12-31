@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "creators",
+  "info": {
+    "singularName": "creator",
+    "pluralName": "creators",
+    "displayName": "creator"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "email": {
+      "type": "email"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "social_media": {
+      "type": "json"
+    },
+    "creators": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}
