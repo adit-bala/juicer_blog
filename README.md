@@ -1,3 +1,5 @@
-# Strapi application
+# A blog created by [@bendimarco](https://github.com/bendimarco) and I
 
-A quick description of your strapi application
+[Frontend](https://github.com/adit-bala/juicer-blog-frontend) is created with [React.js](https://reactjs.org/)
+
+[Backend](https://github.com/adit-bala/juicer_blog_backend) created with [Strapi](https://strapi.io/)
